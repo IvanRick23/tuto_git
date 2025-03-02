@@ -1,3 +1,5 @@
+
+
 from tabulate import tabulate
 
 class Personnage:
@@ -45,4 +47,4 @@ class Personnage:
         if self.points_de_vie <= 0:
             self.en_vie = False
             print(f"{self.nom} est mort.")
-        #commentaires très stupide 
+        #commentaires très stupide
